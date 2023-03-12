@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.conteiner{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: cadetblue;
+}
+.wrapper{
+  width: 880px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(7, 89, 92);
+}
+
+.wrapper__title{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.wrapper__text{
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid blue;
+  margin-bottom: 5px;
+}
+.wrapper__text1{
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid blue;
+  margin-bottom: 5px;
+}
+
+.wrapper__card{
+  width: 100%;
+  height: 1%;
+  margin: 0 auto;
+  padding: 2em 0;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(7, 89, 92);
+  transition:
+  height 0.6s ease-in
+}
+.wrapper__card:hover {
+  height: 400px;
+}
+.wrapper__card1{
+  width: 100%;
+  height: 1%;
+  margin: 0 auto;
+  padding: 2em 0;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(7, 89, 92);
+  transition:
+  height 0.6s ease-in
+}
+.wrapper__card1:hover {
+  height: 400px;
+}
+/* .wrapper__card1:hover .cross1{
+  transform:  rotate(50deg);
+} */
+
+
+.wrapper__image{
+  margin: 0 auto;
+  width: 200px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  transform:  rotate(300deg);
+  transition:
+  transform 1s ease-in
+}
+.wrapper__card:hover{
+  height: 400px;
+}
+.wrapper__card1:hover .wrapper__image{
+  background-image: url('./assets/image/dog.webp');
+  transform:  rotate(360deg);
+}
+.wrapper__card:hover .wrapper__image{
+  background-image: url('./assets/image/cat.jpg');
+  transform:  rotate(360deg);
+  opacity: 0.33;
+}
+
