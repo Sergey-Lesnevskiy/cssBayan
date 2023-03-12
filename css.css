@@ -57,12 +57,15 @@ opacity: 1;
   transition:
   height 0.6s ease-in
 }
+.wrapper__card2{
+  height: 300px;
+}
 .wrapper__card:hover,
 .wrapper__card1:hover,
 .wrapper__card2:hover,
 .wrapper__card3:hover
   {
-  height: 400px;
+  height: 300px;
 }
 
 .wrapper__card:hover .cross,
@@ -74,11 +77,11 @@ opacity: 1;
 .wrapper__image{
   margin: 0 auto;
   width: 200px;
-  height: 400px;
+  height: 300px;
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
-  transform:  rotate(300deg);
+  transform:  rotate(350deg);
   transition:
   transform 1s ease-in
 
@@ -96,7 +99,7 @@ opacity: 1;
 
 }
 
-.wrapper__card2:hover .wrapper__image{
+.wrapper__card2 .wrapper__image{
   cursor: pointer;
   background-image: url('./assets/image/img1.webp');
   transform:  rotate(360deg);
